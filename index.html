@@ -17,9 +17,7 @@
 </head>
 
 <body>
-<div id="search">
-  <input id="search-field" type="text" name="search-field" onkeypress="return search(event)" />
-</div>
+
 <div class="flash">Ludahl</div>
 <!-- Inspired from https://codepen.io/ohlaph/pen/mobRbP -->
 <section class="hero is-dark is-fullheight">
@@ -162,28 +160,7 @@
   </div>
 </section>
 
-<script>
-  // Search on enter key event
-  function search(e) {
-    if (e.keyCode == 13) {
-      var val = document.getElementById("search-field").value;
-      window.open("https://www.qwant.com/?q=" + val);
-    }
-  }
 
-  document.addEventListener("keydown", event => {
-    if (event.keyCode == 16) {
-      // shift to open search
-      document.getElementById("search").style.display = "flex";
-      document.getElementById("search-field").focus();
-    } else if (event.keyCode == 27) {
-      // Esc to close search
-      document.getElementById("search-field").value = "";
-      document.getElementById("search-field").blur();
-      document.getElementById("search").style.display = "none";
-    }
-  });
-</script>
 </body>
 
 </html>
