@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ludafghe/repositories/ludahl_com
+    - /bin/cp -R images $DEPLOYPATH
