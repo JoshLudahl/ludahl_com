@@ -1,1 +1,0 @@
-[![Build Status](https://travis-ci.com/JoshLudahl/ludahl_com.svg?branch=master)](https://travis-ci.com/JoshLudahl/ludahl_com)
