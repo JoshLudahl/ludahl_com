@@ -1,169 +1,609 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-    <meta content="Ribbed for pleasure." name="description"/>
-    <meta content="Josh Ludahl" name="author"/>
-    <title>Ludahl - Hi.</title>
-    <!-- Load Factory CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="css/styles.css" rel="stylesheet"/>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <title>Free portfolio template provided by bootstraplily</title>
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        a {
+            transition: all 0.3s ease;
+        }
+
+        .weight-500 {
+            font-weight: 500;
+        }
+
+        .weight-600 {
+            font-weight: 600;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            color: #162746;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        .navbar-nav {
+            font-weight: 600;
+        }
+
+        .btn {
+            padding: 13.5px 36px;
+            font-weight: 700;
+            border-radius: 30px;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .btn-primary {
+            background-color: #6264fa;
+        }
+
+        .btn-primary:hover {
+            background-color: #3b3dd1;
+        }
+
+        .btn-outline-primary {
+            color: #625cfe;
+            border-color: #625cfe;
+        }
+
+        .btn-outline-primary:hover {
+            background-color: #625cfe;
+        }
+
+        .btn-link {
+            color: #625cfe;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+
+        .btn-link:hover {
+            color: #625cfe;
+            opacity: 0.5;
+            text-decoration: none;
+        }
+
+        ::placeholder {
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+            color: #625cfe;
+        }
+
+        .navbar-expand-lg .navbar-nav .nav-link {
+            padding-right: 1rem !important;
+            padding-left: 1rem;
+        }
+
+        .active a {
+            font-weight: bold;
+        }
+
+        .display-5 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            line-height: 1.2;
+        }
+
+        .bg-circle {
+            background: url(img/bg-circle.png) no-repeat left top;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            padding-left: 21px;
+        }
+
+        .tt {
+            color: #2dcbbd;
+        }
+
+        .circle-new {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            background-color: #2dcbbd;
+            width: 60px;
+            height: 60px;
+            border-radius: 60px;
+            display: flex;
+        }
+
+        a.text-blue {
+            color: #625cfe;
+        }
+
+        .bubble {
+            background: url(img/bubble.png) no-repeat right bottom;
+        }
+
+        @media (max-width: 700px) {
+            p {
+                font-size: 13px;
+            }
+        }
+
+        #parallax {
+            position: relative;
+            width: 100%;
+            height: 800px;
+            background-image: url(img/back-1.png), url(img/back-2.png), url(img/back-3.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position: 50% 50%;
+        }
+
+        .bg-new-3 {
+            background: linear-gradient(rgba(255, 255, 255, .95), rgba(255, 255, 255, .95)), url(img/back-4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .tt {
+            overflow: hidden;
+        }
+
+        .tt img {
+            width: 170px;
+            height: 170px;
+            border-radius: 170px;
+        }
+
+        .scrollDown {
+            position: absolute;
+            bottom: 80px;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-180deg);
+        }
+
+        .scrollDown i {
+            position: absolute;
+            bottom: 10px;
+            color: #ccc;
+            font-weight: 500;
+            font-size: 18px;
+            animation: scrollDown 2s ease infinite;
+        }
+
+        @keyframes scrollDown {
+            0%, 100% {
+                bottom: 0;
+            }
+            50% {
+                bottom: 10px;
+            }
+        }
+
+        .yy {
+            margin-bottom: 40px;
+        }
+
+        .yy img {
+            filter: grayscale(90%);
+            opacity: 0.3;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            height: 30px;
+            width: auto;
+        }
+
+        .yy img:hover {
+            filter: grayscale(10%);
+            opacity: 0.9;
+        }
+
+        .bg-2 {
+            background: url(img/banner-image-seventeen.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg-new {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background-color: #a3edd8;
+        }
+
+        .bg-new:hover {
+            transform: scale(1.04);
+        }
+
+        .bg-new-2 {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            background-color: #f4df64;
+        }
+
+        .bg-new-2:hover {
+            transform: scale(1.04);
+        }
+
+        .nn img {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .nn img:hover {
+            transform: scale(1.04);
+        }
+
+        .uu li {
+            padding-top: 12px;
+            font-weight: 600;
+            color: #162746;
+            font-size: 15px;
+        }
+
+        h4.bg-heading {
+            background-color: #8bd3bf;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-block;
+            border-radius: 20px;
+        }
+
+        h4.bg-heading2 {
+            background-color: #ffe131;
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            display: inline-block;
+            border-radius: 20px;
+        }
+
+        .icon-circle-80 {
+            transition: all 0.3s ease;
+            width: 50px;
+            margin: 08px;
+            height: 50px;
+            border-radius: 50px;
+            font-size: 15px;
+            border: 2px solid #ebebeb;
+            cursor: pointer;
+            background-color: #f5f5f5;
+        }
+
+        .icon-circle-80:hover {
+            box-shadow: 0px 0px 5px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .icon-circle-80 i {
+            font-size: 15px;
+        }
+
+        .icon-circle-80 a {
+            color: #666;
+        }
+
+        .icon-circle-80:hover {
+            background-color: #e34c43;
+            color: #fff;
+        }
+
+        .icon-circle-80:hover a {
+            color: #fff;
+        }
+    </style>
 </head>
+
 <body>
-<div class="flash">Ludahl</div>
-<!-- Inspired from https://codepen.io/ohlaph/pen/mobRbP -->
-<section class="hero is-dark is-fullheight">
-    <div class="hero-body">
-        <div class="container animated fadeInUp">
-            <div class="columns is-full">
-                <div class="column is-full has-text-centered">
-                    <div class="welcome">welcome...</div>
-                    <div class="weather-container">
-                        <div class="row">
-                            <div class="inline" id="weather-description">
-                            </div>
-                        </div>
+<nav class="navbar navbar-expand-lg navbar-light"><a class="navbar-brand weight-600" href="#">Ludahl</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mr-md-5">
+            <li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn-light text-blue">Hire Me</a></div>
+</nav>
+<div id="parallax">
+    <div class="container" id="about">
+        <div class="row" style="height:800px;">
+            <div class="col-12 d-flex align-items-center">
+                <div class="text-center w-100">
+                    <div class="tt mb-4"><img src="img/main-profile.jpg"></div>
+                    <h1 class="display-5 weight-600">Hi, I'm Josh Ludahl</h1>
+                    <h6 class="mb-4">QA Engineer</h6>
+                    <p class="text-muted lead col-md-12 col-lg-8 mx-auto">Quality assurance and automation engineering
+                        is what I do!</p>
+                    <a href="#" class="btn btn-primary mt-5">Hire Me &rarr;</a></div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="scrollDown"> <i class="lni lni-mouse"></i> </a></div>
+<div class="container pt-5">
+    <div class="row">
+        <div class="col-12 text-center">
+            <h6 class="text-info small weight-600">Some of my awesome clients</h6>
+        </div>
+    </div>
+    <div class="row text-center mt-5">
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/amara.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/asgardia.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/aven.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/circle.png"></div>
+    </div>
+    <div class="row text-center">
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/code-lab.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/earth-2.0.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/fox-hub.png"></div>
+        <div class="col-lg-3 col-md-4 col-6 mb-5 yy"><img src="img/goldline.png"></div>
+    </div>
+</div>
+</div>
+<div class="container py-5" id="services">
+    <div class="row align-items-center py-5">
+        <div class="col-md-12 col-lg-4">
+            <h2 class="mb-4 weight-600">My Services</h2>
+            <p class="text-muted mb-5">Quality and simplicity is a solid focus of mine. </p>
+            <a href="#services" class="btn btn-outline-secondary mb-5 mb-md-0">My Services &rarr;</a></div>
+        <div class="col-md-12 col-lg-8">
+            <div class="row">
+                <div class="col-6">
+                    <div class="bg-new  p-5 text-white">
+                        <h4 class="bg-heading">#Automation</h4>
+                        <ul class="list-unstyled uu">
+                            <li>testing suites</li>
+                            <li>testing strategies</li>
+                            <li>end-to-end</li>
+                            <li>mobile and web</li>
+                            <li>ci / cd</li>
+                            <li>reporting</li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div class="columns is-multiline is-mobile">
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="organize">
-                    <ul class="list-unstyled">
-                        <li>back-end</li>
-                        <li>
-                            <a href="https://en.cppreference.com/" target="_blank">c/c++</a>
-                        </li>
-                        <li>
-                            <a href="https://docs.oracle.com/en/java/" target="_blank">java</a>
-                        </li>
-                        <li>
-                            <a href="https://docs.python.org/3/" target="_blank">python</a>
-                        </li>
-                        <li><a href="https://spring.io/" target="_blank">spring</a></li>
-                        <li><a href="https://nodejs.org/" target="_blank">nodejs</a></li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="social">
-                    <ul class="list-unstyled">
-                        <li>social</li>
-                        <li><a href="//twitter.com" target="_blank">twitter</a></li>
-                        <li><a href="//telegram.org" target="_blank">telegram</a></li>
-                        <li><a href="//discord.com" target="_blank">discord</a></li>
-                        <li><a href="//reddit.com" target="_blank">reddit</a></li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="media">
-                    <ul class="list-unstyled">
-                        <li>media</li>
-                        <li>
-                            <a href="https://youtube.com" target="_blank">youtube</a>
-                        </li>
-                        <li>
-                            <a href="http://www.soundcloud.com/" target="_blank">soundcloud</a>
-                        </li>
-                        <li>
-                            <a href="https://spotify.com" target="_blank">spotify</a>
-                        </li>
-                        <li>
-                            <a href="http://musicforprogramming.net/?one" target="_blank">programming music</a>
-                        </li>
-                        <li>
-                            <a href="http://datassette.net/" target="_blank">datassette</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="dev">
-                    <ul class="list-unstyled">
-                        <li>dev</li>
-                        <li>
-                            <a href="https://dev.to/" target="_blank">dev.to</a>
-                        <li>
-                            <a href="https://increment.com" target="_blank">increment</a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/joshludahl" target="_blank">github</a>
-                        </li>
-                        <li>
-                            <a href="https://www.codepen.io/ohlaph/" target="_blank">codepen.io</a>
-                        </li>
-                        <li><a href="//jsfiddle.net" target="_blank">jsfiddle</a></li>
-                        <li><a href="https://hackernoon.com/" target="_blank">hackernoon</a></li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="docs">
-                    <ul class="list-unstyled">
-                        <li>dev tools</li>
-                        <li>
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
-                               target="_blank">javascript</a>
-                        </li>
-                        <li>
-                            <a href="http://javascript.info/" target="_blank">javascript.info</a>
-                        </li>
-                        <li>
-                            <a href="https://devdocs.io/" target="_blank">dev docs</a>
-                        </li>
-                        <li>
-                            <a href="https://basarat.gitbooks.io/typescript/content/" target="_blank">basarat - ts</a>
-                        </li>
-                        <li>
-                            <a href="https://www.typescriptlang.org/docs" target="_blank">typescript</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="utils">
-                    <ul class="list-unstyled">
-                        <li>misc</li>
-                        <li>
-                            <a href="https://unsplash.com/" target="_blank">unsplash</a>
-                        </li>
-                        <li>
-                            <a href="https://pexels.com/" target="_blank">pexels</a>
-                        </li>
-                        <li>
-                            <a href="https://www.photopea.com/" target="_blank">photopea</a>
-                        </li>
-                        <li>
-                            <a href="https://dribbble.com/" target="_blank">dribbble</a>
-                        </li>
-                        <li>
-                            <a href="https://www.wunderground.com/forecast/us/or/tigard" target="_blank">weather</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="web">
-                    <ul class="list-unstyled">
-                        <li>front end</li>
-                        <li><a href="//vuejs.org" target="_blank">vuejs</a></li>
-                        <li><a href="//svelte.dev" target="_blank">svelte</a></li>
-                        <li><a href="//bulma.io" target="_blank">bulma</a></li>
-                        <li>
-                            <a href="https://htmlreference.io/" target="_blank">htmlreference.io</a>
-                        </li>
-                        <li>
-                            <a href="https://cssreference.io/" target="_blank">cssreference.io</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="column is-3-desktop is-3-tablet is-6-mobile" id="server">
-                    <ul class="list-unstyled">
-                        <li>work</li>
-                        <li><a href="http://appium.io/" target="_blank">appium</a></li>
-                        <li><a href="https://kotlinlang.org/docs/reference/" target="_blank">kotlin</a></li>
-                        <li><a href="https://developer.android.com/" target="_blank">android</a></li>
-                        <li><a href="https://developer.android.com/reference/androidx/test/packages" target="_blank">androidx
-                            test</a></li>
-                        <li><a href="https://flutter.dev/" target="_blank">flutter</a></li>
-                        <li><a href="https://koajs.com/" target="_blank">koa</a></li>
-                        <li><a href="https://www.apollographql.com/docs/apollo-server/" target="_blank">apollo</a></li>
-                    </ul>
+                <div class="col-6">
+                    <div class="bg-new-2  p-5 text-white">
+                        <h4 class="bg-heading2">#Code</h4>
+                        <ul class="list-unstyled uu">
+                            <li>mobile</li>
+                            <li>web</li>
+                            <li>server</li>
+                            <li>microservices</li>
+                            <li>spring, node, flask</li>
+                            <li>custom integrations</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
+</div>
+<div class="bg-new-3 py-5">
+    <div class="container py-5" id="portfolio">
+        <div class="row">
+            <div class="col-12 text-center mb-5">
+                <h2>Features</h2>
+            </div>
+        </div>
+        <div class="row align-items-center pb-5">
+            <div class="col-md-6 px-5">
+                <h4 class="mb-4">Espresso Library - ELK</h4>
+                <p class="text-muted mb-5"> The Espresso library, ELK, is a library written in Kotlin for the Espresso
+                    Testing Framework.</p>
+                <div class="bg-circle"><a href="https://github.com/JoshLudahl/ELK" target="_blank" class="btn-link">View
+                    it &rarr;</a></div>
+            </div>
+            <div class="col-md-6 mt-5 mt-md-0 nn"><img src="img/portfolio-one.jpg" class="img-fluid rounded"></div>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-6 order-12 order-lg-1 nn"><img src="img/portfolio-two.jpg" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6 px-5 order-1 order-lg-12">
+                <h4 class="mb-4">Softklass</h4>
+                <p class="text-muted mb-5"> Softklass is a mocking site for web design services.</p>
+                <div class="bg-circle mb-5 mb-md-0"><a href="https://www.softklass.com" target="_blank"
+                                                       class="btn-link">View it &rarr;</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container pt-5">
+    <div class="row pt-5">
+        <div class="col-12 text-center">
+            <h2 class="mb-4">Languages</h2>
+            <p class="col-md-8 mx-auto text-muted">Tools we use </p>
+        </div>
+    </div>
+    <div class="row justify-content-around align-items-center pt-5">
+        <div class="text-center">
+            <h2 class="tt">Front-end</h2>
+            <p class="text-muted small">React, Vue, & Svelt</p>
+        </div>
+        <div><img src="img/separtor.jpg"></div>
+        <div class="text-center">
+            <h2 class="tt">Back-end</h2>
+            <p class="text-muted small">Spring, Node, Quarkus, & Deno</p>
+        </div>
+        <div><img src="img/separtor.jpg"></div>
+        <div class="text-center">
+            <h2 class="tt">Mobile</h2>
+            <p class="text-muted small">iOS, Android & cross-platform</p>
+        </div>
+        <div><img src="img/separtor.jpg"></div>
+        <div class="text-center">
+            <h2 class="tt">Data</h2>
+            <p class="text-muted small">SQL, SQLite, & document databases</p>
+        </div>
+    </div>
+</div>
+<div class="container py-5">
+    <div class="row pt-5">
+        <div class="col-12 text-center">
+            <h2>What My Customers Are Saying</h2>
+        </div>
+    </div>
+</div>
+<div class="bg-2">
+    <div class="container testimonials owl-carousel owl-theme">
+        <div class="row align-items-center py-5">
+            <div class="col-md-6 px-5">
+                <h5 class="mb-4 weight-600">Helped us to improve our productivity</h5>
+                <p class="text-muted mb-5"> Identifying areas of improvement by increasing productivity and eliminating
+                    redundancy by incorporating automation.</p>
+                <h6>Alexa Nickson</h6>
+                <p class="text-muted small">Social Media Manager</p>
+            </div>
+            <div class="col-md-6">
+                <div class="circle-new justify-content-center align-items-center">
+                    <div><img src="img/inverted-comma.png"></div>
+                </div>
+                <img src="img/img-profile-1.jpg" class="img-fluid"></div>
+        </div>
+        <div class="row align-items-center py-5">
+            <div class="col-md-6 px-5">
+                <h5 class="mb-4 weight-600">Automation suites</h5>
+                <p class="text-muted mb-5"> Helped set up an automation suite and connect to our build pipelines for
+                    greater visibility which has helped catch issues prior to release.</p>
+                <h6>Jery George</h6>
+                <p class="text-muted small">Digital Marketer</p>
+            </div>
+            <div class="col-md-6">
+                <div class="circle-new justify-content-center align-items-center">
+                    <div><img src="img/inverted-comma.png"></div>
+                </div>
+                <img src="img/img-profile-3.jpg" class="img-fluid"></div>
+        </div>
+        <div class="row align-items-center py-5">
+            <div class="col-md-6 px-5">
+                <h5 class="mb-4 weight-600">Reduced project deficiencies</h5>
+                <p class="text-muted mb-5"> Helped outline areas where project bottlenecks caused output delays and
+                    outlined an improvement plan. </p>
+                <h6>Nicole Rich</h6>
+                <p class="text-muted small">Web Designer</p>
+            </div>
+            <div class="col-md-6">
+                <div class="circle-new justify-content-center align-items-center">
+                    <div><img src="img/inverted-comma.png"></div>
+                </div>
+                <img src="img/img-profile-4.jpg" class="img-fluid"></div>
+        </div>
+    </div>
+</div>
+<div class="container py-5" id="contact">
+    <div class="row pt-5">
+        <div class="col-12 text-center d-flex justify-content-center">
+            <div class="icon-circle-80 d-flex justify-content-center align-items-center"><a
+                    href="https://github.com/JoshLudahl/" target="_blank"><i class="lni lni-github"></i></a></div>
+            <div class="icon-circle-80 d-flex justify-content-center align-items-center"><a
+                    href="https://www.linkedin.com/in/josh-ludahl-221b837"><i class="lni lni-linkedin"></i></a></div>
+            <div class="icon-circle-80 d-flex justify-content-center align-items-center"><a
+                    href="mailto:josh.ludahl@gmail.com"><i class="lni lni-envelope"></i></a></div>
+        </div>
+    </div>
+</div>
+<div class="bubble">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+                <h3 class="mb-3">Call Back Form</h3>
+                <p class="text-muted small mb-5 weight-500">Fill all fields so we can get some info about you. We'll
+                    never send you spam</p>
+                <div class=" mt-4">
+                    <form method="post">
+                        <div class="row mb-2 pt-2">
+                            <div class="col-12 col-lg-6 form-group">
+                                <input type="text" name="name" class="form-control form-control-lg" placeholder="Name">
+                            </div>
+                            <div class="col-12 col-lg-6 form-group">
+                                <input type="email" name="email" class="form-control form-control-lg"
+                                       placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" cols="" rows="" class="form-control form-control-lg"
+                                      placeholder="Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-lg w-100 d-block mt-4">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg-secondary py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center"><span
+                    class="small text-white-50">© 2021 Josh Ludahl. All rights reserved. </span></div>
+        </div>
+    </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script>
+    $('.testimonials').owlCarousel({
+        loop: false,
+        margin: 10,
+        nav: false,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 1
+            }
+        }
+    })
+    (function () {
+        // Add event listener
+        document.addEventListener("mousemove", parallax);
+        const elem = document.querySelector("#parallax");
+
+        // Magic happens here
+        function parallax(e) {
+            let _w = window.innerWidth / 2;
+            let _h = window.innerHeight / 2;
+            let _mouseX = e.clientX;
+            let _mouseY = e.clientY;
+            let _depth1 = `${50 - (_mouseX - _w) * 0.01}% ${50 - (_mouseY - _h) * 0.01}%`;
+            let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
+            let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
+            let x = `${_depth3}, ${_depth2}, ${_depth1}`;
+            console.log(x);
+            elem.style.backgroundPosition = x;
+        }
+
+    })();
+</script>
 </body>
 </html>
