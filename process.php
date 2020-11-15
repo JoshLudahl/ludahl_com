@@ -15,4 +15,6 @@
 
     $send = mail($to, $subject, $body, $headers);
 
+    header('Location: https://www.ludahl.com/');
+    exit;
 ?>
