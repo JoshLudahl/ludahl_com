@@ -1,0 +1,23 @@
+{
+  "name": "ludahl",
+  "version": "0.0.1",
+  "description": "site for ludahl.com",
+  "main": "serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./serve.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoshLudahl/ludahl_com.git"
+  },
+  "author": "Josh Ludahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JoshLudahl/ludahl_com/issues"
+  },
+  "homepage": "https://github.com/JoshLudahl/ludahl_com#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
