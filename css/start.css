@@ -1,0 +1,395 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Gudea');
+
+.body {
+    height: 100%;
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.container {
+    background-color: #333333;
+    border-style: solid;
+    border-width: 15px 5px 5px 5px;
+    border-color: #319BDB;
+    width: 952px;
+    padding: 25px;
+    font-family: 'Gudea', sans-serif;
+    font-size: 2rem;
+    box-shadow: 0 0 30px rgba(255, 255, 255, .3);
+}
+
+.hero.is-dark {
+    background-color: #333333;
+
+}
+
+li a {
+    color: #EDF0F1;
+}
+
+li a:hover,
+li a:visited,
+li a:active {
+    text-decoration: none;
+    transition: .1s;
+}
+
+#organize {
+    color: #2ecc71;
+}
+
+#organize ul li a {
+    color: #EDF0F1;
+}
+
+#architecture {
+    color: #00E7FF;
+}
+
+#architecture ul li a {
+    color: #EDF0F1;
+}
+
+#architecture ul li a:hover {
+    color: #00E7FF;
+}
+
+#organize ul li a:hover {
+    color: #2ecc71;
+}
+
+#palettes {
+    color: #78e08f;
+}
+
+#palettes ul li a {
+    color: #EDF0F1;
+}
+
+#palettes ul li a:hover {
+    color: #78e08f;
+}
+
+#social {
+    color: #3498db;
+}
+
+#social ul li a {
+    color: #EDF0F1;
+}
+
+#social ul li a:hover {
+    color: #3498db;
+}
+
+#media {
+    color: #9b59b6;
+}
+
+#media ul li a {
+    color: #EDF0F1;
+}
+
+#media ul li a:hover {
+    color: #9b59b6;
+}
+
+#progs {
+    color: #B983FF;
+}
+
+#progs ul li a {
+    color: #EDF0F1;
+}
+
+#progs ul li a:hover {
+    color: #94B3FD;
+}
+
+#dev {
+    color: #f1c40f;
+}
+
+#dev ul li a {
+    color: #EDF0F1;
+}
+
+#dev ul li a:hover {
+    color: #f1c40f;
+}
+
+#docs {
+    color: #e67e22;
+}
+
+#docs ul li a {
+    color: #EDF0F1;
+}
+
+#docs ul li a:hover {
+    color: #e67e22;
+}
+
+#utils {
+    color: #1abc9c;
+}
+
+#utils ul li a {
+    color: #EDF0F1;
+}
+
+#utils ul li a:hover {
+    color: #1abc9c;
+}
+
+#web {
+    color: #d35400;
+}
+
+#web ul li a {
+    color: #EDF0F1;
+}
+
+#web ul li a:hover {
+    color: #d35400;
+}
+
+#search-engines {
+    color: #7C99AC;
+}
+
+#search-engines ul li a {
+    color: #EDF0F1;
+}
+
+#search-engines ul li a:hover {
+    color: #7C99AC;
+}
+
+#server {
+    color: #0078D7;
+}
+
+#server ul li a {
+    color: #EDF0F1;
+}
+
+#server ul li a:hover {
+    color: #0078D7;
+}
+
+#news {
+    color: #d1b1cb;
+}
+
+#news ul li a {
+    color: #EDF0F1;
+}
+
+#news ul li a:hover {
+    color: #d1b1cb;
+}
+
+
+#work {
+    color: #FF9F29;
+}
+
+#work ul li a {
+    color: #EDF0F1;
+}
+
+#work ul li a:hover {
+    color: #FF9F29;
+}
+
+#storage {
+    color: #F5F0BB;
+}
+
+#storage ul li a {
+    color: #EDF0F1;
+}
+
+#storage ul li a:hover {
+    color: #F5F0BB;
+}
+
+#streaming {
+    color: #D18CE0;
+}
+
+#streaming ul li a {
+    color: #EDF0F1;
+}
+
+#streaming ul li a:hover {
+    color: #D18CE0;
+}
+
+#finance {
+    color: #C1EFFF;
+}
+
+#finance ul li a {
+    color: #EDF0F1;
+}
+
+#finance ul li a:hover {
+    color: #C1EFFF;
+}
+
+#ludahl {
+    color: #F06292;
+}
+
+#ludahl ul li a {
+    color: #EDF0F1;
+}
+
+#ludahl ul li a:hover {
+    color: #F06292;
+}
+
+@media (min-width: 544px) {
+    .container {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        font-size: 16px;
+    }
+}
+
+.form-control {
+    background-color: #1D1F21;
+    display: none;
+    padding: 0;
+    border: none;
+    color: #EDF0F1;
+}
+
+input[type="search-input"]:focus {
+    background-color: #1D1F21;
+    color: #EDF0F1;
+}
+
+input[type="search-input"]:hover {
+    background-color: #222426;
+    color: #EDF0F1;
+}
+
+#searchform {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+form {
+    display: inline-block;
+    width: 90%;
+}
+
+label {
+    color: #CC6666;
+    display: inline-block;
+
+    padding-right: 1em;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flash {
+    color: #EDF0F1;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    letter-spacing: 1px;
+    background: #319BDB;
+    width: 220px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: 20px;
+    left: -60px;
+    text-align: center;
+    line-height: 65px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, .3);
+}
+
+/* At the top level of your code */
+@media screen and (max-width: 750px) {
+    .flash {
+        visibility: hidden;
+    }
+    .container {
+        font-size: 2rem;
+    }
+}
+@media screen and (max-height: 700px) {
+    .flash {
+        visibility: hidden;
+    }
+    .container {
+        font-size: 2rem;
+    }
+}
+
+#search {
+    width: 100%;
+    height: 100vh;
+    background-color: #1D1F28;
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-field {
+    width: 90%;
+    padding: .75em 1em;
+    box-sizing: border-box;
+    background-color: #1D1F28;
+    border: solid 0 #1D1F28;
+    font-size: 4rem;
+    color: #f2f2f2;
+    outline: none;
+    border-radius: 3px;
+    margin-bottom: 1em;
+    text-align: center;
+    z-index: 1;
+}
+
+.weather-container {
+    padding: 1em;
+    border-radius: 3px;
+    color: #fff;
+    text-align: center;
+    opacity: .60;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.welcome {
+    color:#319BDB;
+    font-size: 2em;
+
+}
