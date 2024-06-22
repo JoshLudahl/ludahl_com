@@ -255,6 +255,18 @@ li a:active {
     color: #F06292;
 }
 
+#games {
+    color: #c7bd4e;
+}
+
+#games ul li a {
+    color: #EDF0F1;
+}
+
+#games ul li a:hover {
+    color: #c7bd4e;
+}
+
 @media (min-width: 544px) {
     .container {
         font-size: 15px;
