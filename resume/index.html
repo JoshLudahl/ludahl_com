@@ -3,77 +3,339 @@
 
 <head>
     <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
     <meta content="Resume for Joshua Ludahl" name="description"/>
     <meta content="Joshua Ludahl" name="author"/>
     <title>Joshua Ludahl - Resume</title>
 
     <link href="../favicon.ico" rel="icon" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
     <!-- Load Factory CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css" rel="stylesheet"/>
     <!-- Custom styles for this template -->
     <link href="../css/resume.css?v=1.0.11" rel="stylesheet"/>
+    <script async type="text/javascript" src="../js/bulma.js"></script>
 </head>
 
 <body>
+<!-- Navigation bar -->
+<nav class="navbar is-bold is-fixed-top">
+    <div class="navbar-brand">
+        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+
+    <div id="navbarExampleTransparentExample" class="navbar-menu">
+        <div class="navbar-end">
+            <a class="navbar-item" href="#about">
+          <span class="icon">
+            <i class="fas fa-info color-bold"></i>
+          </span>
+                <span>About</span>
+            </a>
+            <a class="navbar-item" href="#experience">
+          <span class="icon">
+            <i class="fas fa-bars color-bold"></i>
+          </span>
+                <span>Experience</span>
+            </a>
+            <a class="navbar-item" href="#resume">
+          <span class="icon">
+            <i class="fas fa-file-alt color-bold"></i>
+          </span>
+                <span>Resume</span>
+            </a>
+            <a class="navbar-item" href="#education">
+          <span class="icon">
+            <i class="fas fa-th-list color-bold"></i>
+          </span>
+                <span>Education</span>
+            </a>
+            <a class="navbar-item" href="#contact">
+          <span class="icon">
+            <i class="fas fa-envelope color-bold"></i>
+          </span>
+                <span>Contact</span>
+            </a>
+        </div>
+    </div>
+</nav>
 
 <!-- BEGIN Head Section -->
-<section class="hero is-medium bg-dark playfair-display">
+<section class="hero is-fullheight is-bold is-fullheight-with-navbar">
     <div class="hero-body">
-        <p class="title">
-            Joshua Ludahl <span class="tag is-dark are-medium is-rounded">RESUME</span>
-        </p>
-        <p class="subtitle">
-            A little about Joshua Ludahl.
-        </p>
+        <div class="container">Hello! I am
+            <h1 class="title color-primary is-1 playfair-display">
+                Joshua Ludahl
+            </h1>
+            <h2 class="subtitle is-3">
+                Senior Software Engineer with a focus on quality
+            </h2>
+        </div>
     </div>
 </section>
 <!-- END Head Section -->
 
-<!-- BEGIN Content Section -->
-<section class="section is-large">
-    <h1 class="title">Experience</h1>
-    <article>
-        <h2 class="subtitle">
-            A summary of experience.
+<!-- About -->
+<section class="section is-fullheight is-bold is-align-content-center" id="about">
+    <!-- Title -->
+    <div class="section-heading">
+        <h3 class="title is-2 playfair-display color-primary">About Me</h3>
+        <h4 class="subtitle is-5">Jack of all trades, master of "some"</h4>
+        <div class="container">
+            <p>Web developer with more than <strong>4 years</strong> of well-rounded experience with a degree in the
+                field of
+                <strong>Computer Science</strong>, extensive knowledge of modern Web techniques and love for <strong>Coffee</strong>.
+                Looking for an opportunity to work and upgrade, as well as being involved in an organization that
+                believes
+                in gaining a competitive edge and giving back to the community.</p>
+        </div>
+    </div>
 
-            Companies
+    <div class="columns has-same-height is-gapless">
+        <div class="column">
+            <!-- Profile -->
+            <div class="card">
+                <div class="card-content">
+                    <h3 class="title is-4">Profile</h3>
 
-            Technology
+                    <div class="content">
+                        <table class="table-profile">
+                            <tr>
+                                <th colspan="1"></th>
+                                <th colspan="2"></th>
+                            </tr>
+                            <tr>
+                                <td>Full Name:</td>
+                                <td>Joshua Ludahl</td>
+                            </tr>
+                            <tr>
+                                <td>Phone:</td>
+                                <td>503-583-2459</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>jludahl@gmail.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <div class="buttons has-addons is-centered">
+                        <a href="#" class="button is-link">Github</a>
+                        <a href="#" class="button is-link">LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- Profile picture -->
+            <div class="card">
+                <div class="card-image">
+                    <figure class="image is-4by3">
+                        <img src="https://bulmatemplates.github.io/bulma-templates/images/first-post.png" alt="Placeholder image">
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <!-- Skills -->
+            <div class="card">
+                <div class="card-content skills-content">
+                    <h3 class="title is-4">Skills</h3>
+                    <div class="content">
 
-            Skills
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>JavaScript:</strong>
+                                        <br>
+                                        <progress class="progress is-primary" value="90" max="100"></progress>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Vue.js:</strong>
+                                        <br>
+                                        <progress class="progress is-primary" value="90" max="100"></progress>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
-        </h2>
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Node.js:</strong>
+                                        <br>
+                                        <progress class="progress is-primary" value="75" max="100"></progress>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
 
-    </article>
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>HTML5/CSS3</strong>
+                                        <br>
+                                        <progress class="progress is-primary" value="95" max="100"></progress>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="media">
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Databases</strong>
+                                        <br>
+                                        <progress class="progress is-primary" value="66" max="100"></progress>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<!-- END Content Section -->
 
-<!-- BEGIN Content Section -->
-<section class="section is-large">
-    <h1 class="title">Education</h1>
-    <article>
-        <h2 class="subtitle">
-            A summary of Education.
-        </h2>
+<!-- Services -->
+<section class="section is-fullheight is-align-content-center" id="experience">
+    <div class="section-heading">
+        <h3 class="title is-2 playfair-display color-primary">Experience</h3>
+        <h4 class="subtitle is-5">Who I have worked for</h4>
+    </div>
+    <div class="container">
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <div class="content">
+                        <h4 class="title is-5">Chegg, Inc. <span class="tag is-dark are-medium is-rounded">November 2024—Present</span></h4>
+                        <h5>Senior Software Development Engineer in Test</h5>
+                        Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+                        Vue.js.
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div class="content">
+                        <h4 class="title is-5">Back End Web Development</h4>
+                        Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </article>
+        <div class="columns">
+            <div class="column">
+                <div class="box">
+                    <div class="content">
+                        <h4 class="title is-5">Front End Web Development</h4>
+                        Develop Front End using latest standards with HTML5/CSS3 with added funtionality using JavaScript and
+                        Vue.js.
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="box">
+                    <div class="content">
+                        <h4 class="title is-5">Back End Web Development</h4>
+                        Develop Back End application/service using Node.js or ASP .NET and SQL server or Mongo DB databases.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
-<!-- END Content Section -->
 
-<!-- BEGIN Content Section -->
-<section class="section is-large">
-    <h1 class="title">Technologies Used</h1>
-    <article>
-        <h2 class="subtitle">
-            A summary of technologies used.
-        </h2>
-
-    </article>
+<!-- Education -->
+<section class="section is-fullheight is-align-content-center" id="education">
+    <div class="section-heading">
+        <h3 class="title is-2 playfair-display color-primary">Education</h3>
+        <h4 class="subtitle is-5">Portland State University</h4>
+    </div>
 </section>
-<!-- END Content Section -->
+
+<!-- Resume -->
+<section class="section is-fullheight is-align-content-center" id="resume">
+    <div class="section-heading">
+        <h3 class="title is-2 playfair-display color-primary">Resume</h3>
+        <h4 class="subtitle is-5">More about my past</h4>
+        <a href="#" class="button bg-bold is-medium">
+        <span class="icon">
+          <i class="fas fa-file-alt"></i>
+        </span>
+            <span>Download My Resume</span>
+        </a>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section is-fullheight is-align-content-center" id="contact">
+    <div class="container">
+        <div class="section-heading">
+            <h3 class="title is-2 playfair-display color-primary">Contact</h3>
+            <h4 class="subtitle is-5">Get in touch</h4>
+        </div>
+        <br>
+
+        <div class="columns">
+            <div class="column is-6 is-offset-3">
+                <div class="box">
+                    <div class="field">
+                        <label class="label">Name</label>
+                        <div class="control">
+                            <input class="input" type="text" placeholder="Text input">
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Email</label>
+                        <div class="control has-icons-left">
+                            <input class="input" type="email" placeholder="Email input" value="">
+                            <span class="icon is-small is-left">
+                  <i class="fas fa-envelope"></i>
+                </span>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Message</label>
+                        <div class="control">
+                            <textarea class="textarea" placeholder="Textarea"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="field is-grouped has-text-centered">
+                        <div class="control">
+                            <button class="button bg-bold is-large"><span class="icon">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                                <span>Submit</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
 <!-- BEGIN Footer Section -->
 <footer class="footer">
@@ -86,3 +348,4 @@
 <!-- End Footer Section -->
 
 </body>
+</html>
