@@ -1,0 +1,480 @@
+{
+  "sections": [
+    {
+      "id": "organize",
+      "title": "organize",
+      "links": [
+        {
+          "name": "weather",
+          "url": "https://openweathermap.org/city/5756758"
+        },
+        {
+          "name": "webflow",
+          "url": "https://webflow.com"
+        },
+        {
+          "name": "flowmapp",
+          "url": "https://flowmapp.com"
+        },
+        {
+          "name": "grapesjs",
+          "url": "https://grapesjs.com/demo.html"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "title": "social",
+      "links": [
+        {
+          "name": "telegram",
+          "url": "https://telegram.org"
+        },
+        {
+          "name": "discord",
+          "url": "https://discord.com"
+        },
+        {
+          "name": "linkedin",
+          "url": "https://linkedin.com"
+        },
+        {
+          "name": "lemmy",
+          "url": "https://lemmy.world"
+        }
+      ]
+    },
+    {
+      "id": "media",
+      "title": "media",
+      "links": [
+        {
+          "name": "soundcloud",
+          "url": "https://www.soundcloud.com/"
+        },
+        {
+          "name": "spotify",
+          "url": "https://spotify.com"
+        },
+        {
+          "name": "code music",
+          "url": "https://musicforprogramming.net/?one"
+        },
+        {
+          "name": "datassette",
+          "url": "https://datassette.net/"
+        },
+        {
+          "name": "tapefear",
+          "url": "https://www.tapefear.com/"
+        }
+      ]
+    },
+    {
+      "id": "dev",
+      "title": "dev",
+      "links": [
+        {
+          "name": "dev.to",
+          "url": "https://dev.to/"
+        },
+        {
+          "name": "increment",
+          "url": "https://increment.com"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/joshludahl"
+        },
+        {
+          "name": "my codepen",
+          "url": "https://www.codepen.io/ohlaph/"
+        },
+        {
+          "name": "jsfiddle",
+          "url": "https://jsfiddle.net"
+        }
+      ]
+    },
+    {
+      "id": "docs",
+      "title": "dev tools",
+      "links": [
+        {
+          "name": "javascript",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference"
+        },
+        {
+          "name": "js.info",
+          "url": "https://javascript.info/"
+        },
+        {
+          "name": "dev docs",
+          "url": "https://devdocs.io/"
+        },
+        {
+          "name": "basarat-ts",
+          "url": "https://basarat.gitbooks.io/typescript/content/"
+        }
+      ]
+    },
+    {
+      "id": "utils",
+      "title": "utils",
+      "links": [
+        {
+          "name": "unsplash",
+          "url": "https://unsplash.com/"
+        },
+        {
+          "name": "pexels",
+          "url": "https://pexels.com/"
+        },
+        {
+          "name": "imgur",
+          "url": "https://imgur.com/"
+        },
+        {
+          "name": "photopea",
+          "url": "https://www.photopea.com/"
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "title": "front end",
+      "links": [
+        {
+          "name": "vuejs",
+          "url": "https://vuejs.org"
+        },
+        {
+          "name": "svelte",
+          "url": "https://svelte.dev"
+        },
+        {
+          "name": "bulma",
+          "url": "https://bulma.io"
+        },
+        {
+          "name": "html-ref",
+          "url": "https://htmlreference.io/"
+        },
+        {
+          "name": "css-ref",
+          "url": "https://cssreference.io/"
+        },
+        {
+          "name": "daisy ui",
+          "url": "https://daisyui.com/"
+        },
+        {
+          "name": "next ui",
+          "url": "https://nextui.org/"
+        }
+      ]
+    },
+    {
+      "id": "palettes",
+      "title": "palettes",
+      "links": [
+        {
+          "name": "colorhunt",
+          "url": "https://colorhunt.co/"
+        },
+        {
+          "name": "flatui",
+          "url": "https://flatuicolors.com/"
+        },
+        {
+          "name": "colors co",
+          "url": "https://coolors.co/"
+        },
+        {
+          "name": "shapefactory",
+          "url": "https://pigment.shapefactory.co/"
+        },
+        {
+          "name": "learnui",
+          "url": "https://learnui.design/tools/data-color-picker.html"
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "title": "work",
+      "links": [
+        {
+          "name": "kotlin",
+          "url": "https://kotlinlang.org/docs/reference/"
+        },
+        {
+          "name": "android",
+          "url": "https://developer.android.com/"
+        },
+        {
+          "name": "apple",
+          "url": "https://developer.apple.com/"
+        },
+        {
+          "name": "docker",
+          "url": "https://docs.docker.com/"
+        },
+        {
+          "name": "kubernetes",
+          "url": "https://kubernetes.io/"
+        },
+        {
+          "name": "open telemetry",
+          "url": "https://opentelemetry.io/"
+        },
+        {
+          "name": "express js",
+          "url": "https://expressjs.com"
+        },
+        {
+          "name": "next js",
+          "url": "https://nextjs.org"
+        },
+        {
+          "name": "playwright",
+          "url": "https://playwright.dev/"
+        }
+      ]
+    },
+    {
+      "id": "server",
+      "title": "server",
+      "links": [
+        {
+          "name": "java",
+          "url": "https://docs.oracle.com/en/java/"
+        },
+        {
+          "name": "nodejs",
+          "url": "https://nodejs.org/en/"
+        },
+        {
+          "name": "spring",
+          "url": "https://spring.io/"
+        },
+        {
+          "name": "koa",
+          "url": "https://koajs.com/"
+        },
+        {
+          "name": "quarkus",
+          "url": "https://quarkus.io/"
+        },
+        {
+          "name": "micronaut",
+          "url": "https://micronaut.io/"
+        }
+      ]
+    },
+    {
+      "id": "search-engines",
+      "title": "search",
+      "links": [
+        {
+          "name": "onelook",
+          "url": "https://www.onelook.com"
+        },
+        {
+          "name": "duckduckgo",
+          "url": "https://duckduckgo.com"
+        },
+        {
+          "name": "google",
+          "url": "https://google.com"
+        },
+        {
+          "name": "startpage",
+          "url": "https://www.startpage.com/"
+        },
+        {
+          "name": "swisscows",
+          "url": "https://swisscows.com/"
+        }
+      ]
+    },
+    {
+      "id": "news",
+      "title": "news",
+      "links": [
+        {
+          "name": "opb",
+          "url": "https://www.opb.org/"
+        },
+        {
+          "name": "npr",
+          "url": "https://www.npr.org/"
+        },
+        {
+          "name": "pbs",
+          "url": "https://www.pbs.org/"
+        },
+        {
+          "name": "pbsnewshour",
+          "url": "https://www.pbs.org/newshour/"
+        },
+        {
+          "name": "nepm",
+          "url": "https://www.nepm.org/"
+        },
+        {
+          "name": "bbc",
+          "url": "https://www.bbc.com/"
+        },
+        {
+          "name": "the verge",
+          "url": "https://theverge.com"
+        },
+        {
+          "name": "semafor",
+          "url": "https://www.semafor.com"
+        },
+        {
+          "name": "ap",
+          "url": "https://apnews.com"
+        },
+        {
+          "name": "broadcastify",
+          "url": "https://www.broadcastify.com/listen/ctid/2238"
+        },
+        {
+          "name": "improvethenews",
+          "url": "https://www.improvethenews.org/"
+        },
+        {
+          "name": "cspan",
+          "url": "https://c-span.org"
+        },
+        {
+          "name": "reuters",
+          "url": "https://reuters.com"
+        }
+      ]
+    },
+    {
+      "id": "storage",
+      "title": "storage",
+      "links": [
+        {
+          "name": "neo4j",
+          "url": "https://neo4j.com/"
+        },
+        {
+          "name": "druid",
+          "url": "https://druid.apache.org/"
+        },
+        {
+          "name": "mongodb",
+          "url": "https://www.mongodb.com/"
+        },
+        {
+          "name": "documentdb",
+          "url": "https://aws.amazon.com/documentdb/"
+        },
+        {
+          "name": "redis",
+          "url": "https://redis.io/"
+        },
+        {
+          "name": "postgres",
+          "url": "https://www.postgresql.org/"
+        }
+      ]
+    },
+    {
+      "id": "architecture",
+      "title": "architecture",
+      "links": [
+        {
+          "name": "kafka",
+          "url": "https://kafka.apache.org/"
+        },
+        {
+          "name": "nginx",
+          "url": "https://www.nginx.com/"
+        }
+      ]
+    },
+    {
+      "id": "streaming",
+      "title": "streaming",
+      "links": [
+        {
+          "name": "zoechip",
+          "url": "https://www.zoechip.cc/"
+        },
+        {
+          "name": "hbo",
+          "url": "https://www.hbomax.com/"
+        },
+        {
+          "name": "kanopy",
+          "url": "https://www.kanopy.com/"
+        }
+      ]
+    },
+    {
+      "id": "finance",
+      "title": "finance",
+      "links": [
+        {
+          "name": "finviz",
+          "url": "https://finviz.com/"
+        },
+        {
+          "name": "trading view",
+          "url": "https://www.tradingview.com/"
+        },
+        {
+          "name": "yahoo finance",
+          "url": "https://finance.yahoo.com/"
+        }
+      ]
+    },
+    {
+      "id": "ludahl",
+      "title": "ludahl",
+      "links": [
+        {
+          "name": "main",
+          "url": "../"
+        },
+        {
+          "name": "start",
+          "url": "/start"
+        },
+        {
+          "name": "resume",
+          "url": "/resume"
+        }
+      ]
+    },
+    {
+      "id": "games",
+      "title": "games",
+      "links": [
+        {
+          "name": "wordle",
+          "url": "https://www.nytimes.com/games/wordle/index.html"
+        },
+        {
+          "name": "strands",
+          "url": "https://www.nytimes.com/games/strands"
+        },
+        {
+          "name": "connections",
+          "url": "https://www.nytimes.com/games/connections"
+        },
+        {
+          "name": "mini",
+          "url": "https://www.nytimes.com/crosswords/game/mini"
+        }
+      ]
+    }
+  ]
+}

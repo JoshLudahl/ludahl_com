@@ -115,6 +115,18 @@ Backgrounds
     background-color: #4C585B;
 }
 
+.color-dark {
+    color: #2d3436;
+}
+
+.color-icon {
+    color:#BAD8B6;
+}
+
+.color-button-bg {
+    background-color:#BAD8B6;
+}
+
 .color-primary {
     color: #BAD8B6;
 }
@@ -145,6 +157,26 @@ Backgrounds
 
 .bg-bold {
     background-color: #8D77AB;
+}
+
+.bg-blue {
+    background-color: #74b9ff;
+}
+
+.bg-purple {
+    background-color: #a29bfe;
+}
+
+.bg-pink {
+    background-color: #fab1a0;
+}
+
+.bg-gray {
+    background-color: #b2bec3;
+}
+
+.bg-blue {
+    background-color: #74b9ff;
 }
 
 .has-same-height .card {
