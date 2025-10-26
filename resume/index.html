@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Joshua Ludahl - Resume</title>
     <style>
         * {
@@ -30,9 +30,20 @@
             font-weight: 600;
         }
 
-        h1 { font-size: 2.5rem; margin-top: 0; }
-        h2 { font-size: 2rem; margin-top: 2rem; }
-        h3 { font-size: 1.5rem; margin-top: 1.5rem; }
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-top: 1.5rem;
+        }
 
         p {
             margin-bottom: 1rem;
@@ -73,8 +84,13 @@
             padding: 0;
         }
 
-         .company {
+        .company {
             padding-top: 1rem;
+        }
+
+        .section-title {
+            font-weight: bold; /* Ensures the text is bold */
+            color: black; /* Change the text color */
         }
 
         img {
@@ -83,8 +99,13 @@
         }
 
         @media (max-width: 600px) {
-            h1 { font-size: 2rem; }
-            h2 { font-size: 1.5rem; }
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
         }
     </style>
 </head>
@@ -95,101 +116,192 @@
     <h4>AI-Driven Mobile QA Engineer | Building Faster, Smarter Testing Pipelines for Mobile Apps</h4>
     <p>
         <code>
-        Contact me using: <strong>503-583.2459</strong> |
-        <a href="mailto:jludahl@gmail.com">jludahl@gmail.com</a> |
-        <a href="https://linkedin.com/in/joshludahl" target="_blank">linkedIn</a> |
-        <a href="https://github.com/JoshLudahl" target="_blank">GitHub</a>
-    </code>
+            Contact me using: <strong>503-583.2459</strong> |
+            <a href="mailto:jludahl@gmail.com">jludahl@gmail.com</a> |
+            <a href="https://linkedin.com/in/joshludahl" target="_blank">linkedIn</a> |
+            <a href="https://github.com/JoshLudahl" target="_blank">GitHub</a>
+        </code>
     </p>
-    <h2>About Me</h2>
-    <p>I’m a Software Development Engineer in Test (SDET) specializing in AI-enhanced mobile automation, backend testing, and CI/CD pipelines. My passion is building intelligent, scalable QA frameworks that speed up feedback loops, expand coverage, and deliver exceptional user experiences. I believe AI isn’t just a buzzword but a force multiplier for smarter testing and faster releases.</p>
+    <h2 class="section-title">About Me</h2>
+    <p>I’m a Software Development Engineer in Test (SDET) specializing in AI-enhanced mobile automation, backend
+        testing, and CI/CD pipelines. My passion is building intelligent, scalable QA frameworks that speed up feedback
+        loops, expand coverage, and deliver exceptional user experiences. I believe AI isn’t just a buzzword but a force
+        multiplier for smarter testing and faster releases.</p>
 
-    <p>At Chegg, I engineered and maintained automated frameworks for the Chegg Study mobile apps, leveraging Espresso, XCUITest, Appium, and API validation suites to support millions of student users. By integrating these tests into CI/CD pipelines using GitLab, I cut regression time by 40%+ and shifted defect detection earlier in the development cycle, accelerating delivery without compromising quality.</p>
+    <p>At Chegg, I engineered and maintained automated frameworks for the Chegg Study mobile apps, leveraging Espresso,
+        XCUITest, Appium, and API validation suites to support millions of student users. By integrating these tests
+        into CI/CD pipelines using GitLab, I cut regression time by 40%+ and shifted defect detection earlier in the
+        development cycle, accelerating delivery without compromising quality.</p>
 
-    <p>Before my work in tech, I led the Oregon western regional operations at FedEx, where I streamlined processes, coordinated high-volume logistics, and developed a data-driven approach to problem-solving. That experience sharpened my leadership, cross-team collaboration, and process improvement skills, which I now apply to engineering projects.</p>
+    <p>Before my work in tech, I led the Oregon western regional operations at FedEx, where I streamlined processes,
+        coordinated high-volume logistics, and developed a data-driven approach to problem-solving. That experience
+        sharpened my leadership, cross-team collaboration, and process improvement skills, which I now apply to
+        engineering projects.</p>
 
-    <p>I thrive where automation meets strategy, combining my background in sociology with my engineering expertise to design systems that scale for both the business and the people who use and maintain them. I am passionate about creating solutions that reduce friction, improve collaboration, and deliver lasting business value. I am always open to connecting on mobile QA, API testing, CI/CD innovation, and practical AI applications in testing.</p>
+    <p>I thrive where automation meets strategy, combining my background in sociology with my engineering expertise to
+        design systems that scale for both the business and the people who use and maintain them. I am passionate about
+        creating solutions that reduce friction, improve collaboration, and deliver lasting business value. I am always
+        open to connecting on mobile QA, API testing, CI/CD innovation, and practical AI applications in testing.</p>
 
-    <h2 id="pretty">Experience</h2>
+    <h2 class="section-title">Experience</h2>
 
-    <h3 class="company">Chegg, Inc.  <code> November 2024 - May 2025 </code></h3>
+    <h3 class="company">Chegg, Inc. <code> November 2024 - May 2025 </code></h3>
     <p>
-        I created and maintained automated test suites for iOS and Android mobile platforms while contributing to the development of CI/CD pipelines. I collaborated closely with developers, UX designers, and product managers to define requirements and ensure high-quality delivery. I used AI tools to decrease test delivery time and speed up regression testing processes.
+        I created and maintained automated test suites for iOS and Android mobile platforms while contributing to the
+        development of CI/CD pipelines. I collaborated closely with developers, UX designers, and product managers to
+        define requirements and ensure high-quality delivery. I used AI tools to decrease test delivery time and speed
+        up regression testing processes.
     </p>
     <ul>
-        <li>Designed, implemented, and maintained automated test suites for API & UI use cases for an educational AI-driven learning tool on iOS and Android, improving test reliability and accelerating release cycles</li>
-        <li>Built and optimized CI/CD pipelines with GitLab to enhance software deployment and testing efficiency, enabling faster feedback loops and reducing release bottlenecks</li>
-        <li>Leveraged AI-powered tools, including Cursor/Claude, JetBrains AI/Junie, and Copilot, to boost test coverage and efficiency, leading to measurable gains in defect detection rates</li>
-        <li>Updated both mobile platforms to use their native testing frameworks (Espresso for Android and XCUITest for iOS), reducing test flakiness by 40% and cutting overall test run time by 30%</li>
-        <li>Partnered closely with developers, UX, and product managers to translate requirements into actionable test cases, ensuring full coverage of critical learning workflows used by thousands of students daily</li>
-        <li>Drove exploratory testing for new feature rollouts, uncovering high-impact usability issues early and improving the student learning experience before release</li>
-        <li>Advocated for quality within the scrum team by integrating test-driven practices, which reduced escaped defects and improved stakeholder confidence in releases</li>
-        <li>Contributed to the evolution of E2E infrastructure by integrating Appium with Java test frameworks, scaling automated coverage across mobile platforms</li>
-        <li>Created detailed test plans and cases during the design phase, improving traceability between business requirements and test execution results</li>
+        <li>Designed, implemented, and maintained automated test suites for API & UI use cases for an educational
+            AI-driven learning tool on iOS and Android, improving test reliability and accelerating release cycles
+        </li>
+        <li>Built and optimized CI/CD pipelines with GitLab to enhance software deployment and testing efficiency,
+            enabling faster feedback loops, and reducing release bottlenecks
+        </li>
+        <li>Leveraged AI-powered tools, including Cursor/Claude, JetBrains AI/Junie, and Copilot, to boost test coverage
+            and efficiency, leading to measurable gains in defect detection rates
+        </li>
+        <li>Updated both mobile platforms to use their native testing frameworks (Espresso for Android and XCUITest for
+            iOS), reducing test flakiness by 40% and cutting overall test run time by 30%
+        </li>
+        <li>Partnered closely with developers, UX, and product managers to translate requirements into actionable test
+            cases, ensuring full coverage of critical learning workflows used by thousands of students daily
+        </li>
+        <li>Drove exploratory testing for new feature rollouts, uncovering high-impact usability issues early and
+            improving the student learning experience before release
+        </li>
+        <li>Advocated for quality within the scrum team by integrating test-driven practices, which reduced escaped
+            defects and improved stakeholder confidence in releases
+        </li>
+        <li>Contributed to the evolution of E2E infrastructure by integrating Appium with Java test frameworks, scaling
+            automated coverage across mobile platforms
+        </li>
+        <li>Created detailed test plans and cases during the design phase, improving traceability between business
+            requirements and test execution results
+        </li>
     </ul>
 
-    <h3 class="company">Cisco Systems  <code> May 2022 - November 2024 </code></h3>
+    <h3 class="company">Cisco Systems <code> May 2022 - November 2024 </code></h3>
     <p>
-        Implemented testing strategies and framework development for mobile (iOS/Android/multi-platform) and browser-related applications. Created in-house Android and iOS applications dedicated to testing SDKs and showcasing product features to stakeholders both internal and external.
+        Implemented testing strategies and framework development for mobile (iOS/Android/multi-platform) and
+        browser-related applications. Created in-house Android and iOS applications dedicated to testing SDKs and
+        showcasing product features to stakeholders both internal and external.
     </p>
     <ul>
-        <li>Spearheaded migration of legacy Java+Appium test suites to modern native frameworks (Espresso on Android, XCUITest on iOS), resulting in a 50% reduction in flaky tests and 30-40% faster test execution times</li>
-        <li>Architected and maintained SDK-focused feature demo apps (Kotlin/Jetpack Compose & Swift/SwiftUI) to validate end-to-end behavior of observability instrumentation, increasing stakeholder confidence and accelerating feedback on new releases</li>
-        <li>Designed and ran comprehensive CI/CD pipelines (mobile & browser) with automated, real-time reporting dashboards using Bash & Python scripts; decreased bug turnaround time by over 25% and supported multiple release environments</li>
-        <li>Built scalable infrastructure leveraging AWS + Kubernetes to simulate production-like observability dashboards, enabling performance and stress testing in environments nearly identical to production, leading to fewer surprises during production rollouts</li>
-        <li>Crafted a robust Playwright framework in TypeScript to cover SaaS dashboards with OTEL-based observability, improving coverage of critical paths and catching UI regressions earlier in the dev cycle</li>
-        <li>Collaborated with cross-functional teams (engineering, product, leadership) to define test strategy and quality gates specifically for SDK integration points, resulting in zero major customer-facing issues</li>
-        <li>Mentored fellow engineers & testers in mobile best practices, instrumentation testing, and observability; improved team efficiency and test suite maintainability</li>
-        <li>Introduced proactive monitoring & alerting for test suite failures, SDK performance regressions, and latency anomalies so issues were detected before impacting end users</li>
+        <li>Spearheaded migration of legacy Java+Appium test suites to modern native frameworks (Espresso on Android,
+            XCUITest on iOS), resulting in a 50% reduction in flaky tests and 30-40% faster test execution times
+        </li>
+        <li>Architected and maintained SDK-focused feature demo apps (Kotlin/Jetpack Compose & Swift/SwiftUI) to
+            validate end-to-end behavior of observability instrumentation, increasing stakeholder confidence and
+            accelerating feedback on new releases
+        </li>
+        <li>Designed and ran comprehensive CI/CD pipelines (mobile & browser) with automated, real-time reporting
+            dashboards using Bash & Python scripts; decreased bug turnaround time by over 25% and supported multiple
+            release environments
+        </li>
+        <li>Built scalable infrastructure leveraging AWS + Kubernetes to simulate production-like observability
+            dashboards, enabling performance and stress testing in environments nearly identical to production, leading
+            to fewer surprises during production rollouts
+        </li>
+        <li>Crafted a robust Playwright framework in TypeScript to cover SaaS dashboards with OTEL-based observability,
+            improving coverage of critical paths and catching UI regressions earlier in the dev cycle
+        </li>
+        <li>Collaborated with cross-functional teams (engineering, product, leadership) to define test strategy and
+            quality gates specifically for SDK integration points, resulting in zero major customer-facing issues
+        </li>
+        <li>Mentored fellow engineers & testers in mobile best practices, instrumentation testing, and observability;
+            improved team efficiency and test suite maintainability
+        </li>
+        <li>Introduced proactive monitoring & alerting for test suite failures, SDK performance regressions, and latency
+            anomalies so issues were detected before impacting end users
+        </li>
     </ul>
 
-    <h3 class="company">DAT Freight & Analytics  <code> November 2018 - May 2022 </code></h3>
+    <h3 class="company">DAT Freight & Analytics <code> November 2018 - May 2022 </code></h3>
 
     <p>
-        Provided manual and automated testing for mobile application features for Android using the Espresso framework. Contributed to the micro-service testing project using Jest to test GraphQL features. Contributed to site reliability strategies. Wrote comprehensive test plans and test cases for managing test coverage.
+        Provided manual and automated testing for mobile application features for Android using the Espresso framework.
+        Contributed to the micro-service testing project using Jest to test GraphQL features. Contributed to site
+        reliability strategies. Wrote comprehensive test plans and test cases for managing test coverage.
     </p>
 
     <ul>
-        <li>Boosted Android mobile app test coverage to 95%+ using Espresso, which accelerated feature delivery and cut regression testing cycles by days</li>
-        <li>Designed and maintained custom Espresso-based frameworks that enabled scalable end-to-end and instrumentation testing for a greenfield Android application, reducing escaped defects in production</li>
-        <li>Developed and executed a Jest-based testing strategy for GraphQL microservices (TypeScript & JavaScript), strengthening developer confidence and increasing release velocity by mitigating previously untested scenarios</li>
-        <li>Built and automated comprehensive Postman collections for GraphQL and REST APIs, ensuring consistent validation of backend services and improving integration stability</li>
-        <li>Orchestrated a CI/CD ecosystem with Jenkins, Bitbucket, Bitrise, and GitHub integrated with cloud device farms (Firebase Test Lab & BrowserStack), enabling parallelized mobile test runs and reducing pipeline execution time by 40%</li>
-        <li>Partnered with developers and product managers to shift testing left, incorporating automated quality checks early in the lifecycle, resulting in fewer late-stage defects and faster stakeholder sign-off</li>
-        <li>Led exploratory testing on mobile features, proactively identifying high-impact usability and performance issues before production releases</li>
+        <li>Boosted Android mobile app test coverage to 95%+ using Espresso, which accelerated feature delivery and cut
+            regression testing cycles by days
+        </li>
+        <li>Designed and maintained custom Espresso-based frameworks that enabled scalable end-to-end and
+            instrumentation testing for a greenfield Android application, reducing escaped defects in production
+        </li>
+        <li>Developed and executed a Jest-based testing strategy for GraphQL microservices (TypeScript & JavaScript),
+            strengthening developer confidence and increasing release velocity by mitigating previously untested
+            scenarios
+        </li>
+        <li>Built and automated comprehensive Postman collections for GraphQL and REST APIs, ensuring consistent
+            validation of backend services and improving integration stability
+        </li>
+        <li>Orchestrated a CI/CD ecosystem with Jenkins, Bitbucket, Bitrise, and GitHub integrated with cloud device
+            farms (Firebase Test Lab & BrowserStack), enabling parallelized mobile test runs and reducing pipeline
+            execution time by 40%
+        </li>
+        <li>Partnered with developers and product managers to shift testing left, incorporating automated quality checks
+            early in the lifecycle, resulting in fewer late-stage defects and faster stakeholder sign-off
+        </li>
+        <li>Led exploratory testing on mobile features, proactively identifying high-impact usability and performance
+            issues before production releases
+        </li>
     </ul>
 
     <h3 class="company">FedEx Express <code> February 2007 - November 2018 </code></h3>
     <p>
-        Managed the evening inbound and outbound freight operations for the Western Portland Metro region, overseeing daily logistics, staffing, and workflow optimization. Directed a team of more than 20 employees, implemented process improvements to increase efficiency and on-time delivery, coordinated with cross-functional teams, and ensured compliance with safety and quality standards, especially around dangerous goods handling.
+        Managed the evening inbound and outbound freight operations for the Western Portland Metro region, overseeing
+        daily logistics, staffing, and workflow optimization. Directed a team of more than 20 employees, implemented
+        process improvements to increase efficiency and on-time delivery, coordinated with cross-functional teams, and
+        ensured compliance with safety and quality standards, especially around dangerous goods handling.
     </p>
     <ul>
-        <li>Oversaw inbound and outbound evening freight operations for the Western Oregon Willamette Valley region, ensuring seamless logistics flow and meeting strict service-level agreements</li>
-        <li>Increased employee retention by launching cross-training initiatives, fostering career growth, and cultivating a collaborative, high-performing team culture</li>
-        <li>Automated reporting processes, eliminating manual labor and improving operational efficiency, which freed up several hours per week for supervisors to focus on strategic initiatives</li>
-        <li>Led and developed a team of 30+ employees, providing coaching, mentorship, and performance feedback that improved overall workforce engagement and productivity</li>
-        <li>Implemented process improvements that reduced freight handling errors and enhanced on-time delivery rates, strengthening customer satisfaction and regional performance metrics</li>
-        <li>Partnered with senior leadership to identify bottlenecks and reallocate resources effectively, improving throughput during peak shipping periods</li>
+        <li>Oversaw inbound and outbound evening freight operations for the Western Oregon Willamette Valley region,
+            ensuring seamless logistics flow and meeting strict service-level agreements
+        </li>
+        <li>Increased employee retention by launching cross-training initiatives, fostering career growth, and
+            cultivating a collaborative, high-performing team culture
+        </li>
+        <li>Automated reporting processes, eliminating manual labor and improving operational efficiency, which freed up
+            several hours per week for supervisors to focus on strategic initiatives
+        </li>
+        <li>Led and developed a team of 30+ employees, providing coaching, mentorship, and performance feedback that
+            improved overall workforce engagement and productivity
+        </li>
+        <li>Implemented process improvements that reduced freight handling errors and enhanced on-time delivery rates,
+            strengthening customer satisfaction and regional performance metrics
+        </li>
+        <li>Partnered with senior leadership to identify bottlenecks and reallocate resources effectively, improving
+            throughput during peak shipping periods
+        </li>
     </ul>
 
-    <h2>Skills and Technologies</h2>
+    <h2 class="section-title">Skills and Technologies</h2>
 
     <ul>
         <li><strong>Languages</strong>: Java, Kotlin, Swift, TypeScript, Python, Bash</li>
         <li><strong>Android Testing</strong>: Espresso, UI Automator, Kotlin, Jetpack Compose</li>
-        <li><strong>Other Testing</strong>: XCUITest, Selenium, Appium, Jest, Playwright, Cypress, Postman, TestRail</li>
+        <li><strong>Other Testing</strong>: XCUITest, Selenium, Appium, Jest, Playwright, Cypress, Postman, TestRail
+        </li>
         <li><strong>CI/CD & Tools</strong>: GitLab, Jenkins, Bitbucket, GitHub, Jira, Browserstack, Firebase</li>
-        <li><strong>AI/ML Integration</strong>: Practical use of Copilot, Cursor/Claude, and JetBrains AI for automation and test optimization</li>
+        <li><strong>AI/ML Integration</strong>: Practical use of Copilot, Cursor/Claude, and JetBrains AI for automation
+            and test optimization
+        </li>
     </ul>
 
-    <h2>Education</h2>
+    <h2 class="section-title">Education</h2>
     <h3>Portland State University</h3>
     <p>
         <strong>Bachelor of Science in Sociology, Minor in Computer Science</strong> (June 2026)
     </p>
 
     <h2>Personal Projects</h2>
-    Visit my Google <a href="https://play.google.com/store/apps/developer?id=Softklass" target="_blank">Play Store</a> page for the applications I have developed.
+    Visit my Google <a href="https://play.google.com/store/apps/developer?id=Softklass" target="_blank">Play Store</a>
+    page for the applications I have personally developed.
 
 </main>
 </body>
